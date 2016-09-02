@@ -1,4 +1,4 @@
-/* usage: gen_backup_reports.js http://<URL_OF_OBS> username password YYYY-MM-DD */
+/* usage: phantomjs gen_backup_reports.js http://<URL_OF_OBS> username password YYYY-MM-DD */
 
 function login(u,p){	
     page.switchToFrame("obs");

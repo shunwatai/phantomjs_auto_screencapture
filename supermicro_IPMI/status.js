@@ -1,5 +1,5 @@
 /* supermicro server IPMI page sensors data */
-/* usage: status.js http://<IMPI_IP> username password */
+/* usage: phantomjs status.js http://<IMPI_IP> username password */
 
 var page = require('webpage').create();	
 var system = require('system');

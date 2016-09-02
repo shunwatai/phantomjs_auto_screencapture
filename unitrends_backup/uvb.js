@@ -1,5 +1,5 @@
 /* unitrends virtual backup */
-/* usage: uvb.js http://<UVB>/accounts/login/ username password */
+/* usage: phantomjs uvb.js http://<UVB>/accounts/login/ username password */
 
 var webPage = require('webpage');
 var page = webPage.create();
